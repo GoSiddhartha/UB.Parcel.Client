@@ -17,7 +17,7 @@ namespace UB.Parcel.Client
             IServiceProvider serviceProvider = serviceCollection.BuildServiceProvider();
 
             var user = serviceProvider.GetService<IUserService>();
-            var requestbody = new User.UserDomain.LoginRequest { username = "assignment-test@ubsend.com", password = " p0DrmE)E+BQH$]KasMSb" };
+            var requestbody = new User.UserDomain.LoginRequest { username = "assignment-test@ubsend.com", password = "p0DrmE)E+BQH$]KasMSb" };
             var config = configuration.GetSection("Config").Get<Config>();
             user.GetUserLogin(requestbody, config);
         }

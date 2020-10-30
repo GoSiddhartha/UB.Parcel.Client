@@ -1,0 +1,16 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0-buster AS build
+WORKDIR /src
+
+ARG source
+COPY . ./
+RUN dotnet restore
+
+RUN dotnet publish Grundfos.GiC.WWNC.API/Grundfos.GiC.WWNC.API.csproj -c Release -o /app/UB.Parcel.Client/out --no-restore
+
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.0-buster-slim AS base
+WORKDIR /app
+
+FROM base AS final
+WORKDIR /app
+COPY --from=build /app/UB.Parcel.Client/out .
+ENTRYPOINT ["dotnet", "UB.Parcel.Client.dll"]
