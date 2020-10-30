@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\910329\\source\\repos\\UB.Parcel.Client\\UB.Parcel.Client\\UB.Parcel.Client.csproj": {}
+    "C:\\Users\\910329\\source\\repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\UB.Parcel.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\910329\\source\\repos\\UB.Parcel.Client\\UB.Parcel.Client\\UB.Parcel.Client.csproj": {
+    "C:\\Users\\910329\\source\\repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\UB.Parcel.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\910329\\source\\repos\\UB.Parcel.Client\\UB.Parcel.Client\\UB.Parcel.Client.csproj",
+        "projectUniqueName": "C:\\Users\\910329\\source\\repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\UB.Parcel.Client.csproj",
         "projectName": "UB.Parcel.Client",
-        "projectPath": "C:\\Users\\910329\\source\\repos\\UB.Parcel.Client\\UB.Parcel.Client\\UB.Parcel.Client.csproj",
+        "projectPath": "C:\\Users\\910329\\source\\repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\UB.Parcel.Client.csproj",
         "packagesPath": "C:\\Users\\910329\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\910329\\source\\repos\\UB.Parcel.Client\\UB.Parcel.Client\\obj\\",
+        "outputPath": "C:\\Users\\910329\\source\\repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -23,7 +23,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -32,7 +32,7 @@
           "https://pkgs.dev.azure.com/GFIOSvr/_packaging/WWNC/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp3.0": {
             "projectReferences": {}
           }
         },
@@ -43,7 +43,37 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,6 +84,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }

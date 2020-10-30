@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.Net.Http;
 using System.Text;
 
 namespace UB.Parcel.Client.User
 {
-    public class User
+    public class UserDomain
     {
         public string FirstName;
         public string LastName;
@@ -17,6 +19,9 @@ namespace UB.Parcel.Client.User
 
         public Role Roles;
 
+        public string message;
+        public bool status;
+
         public class Role
         {
             public int Id;
@@ -24,11 +29,18 @@ namespace UB.Parcel.Client.User
             public string Description;
             public string[] Permissions;
         }
+
+        public class LoginRequest
+        {
+            public string username;
+            public string password;
+            public bool omitClaims;
+        }
+
+        public static UserDomain MapUserDomanin(string rawresponse)
+        {
+            dynamic json = JsonConvert.DeserializeObject(rawresponse);
+            return new UserDomain();
+        }
     }
-
-    public User MapUserDomanin()
-    {
-
-    }
-
 }
