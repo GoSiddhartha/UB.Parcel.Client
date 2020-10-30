@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\910329\\source\\repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\UB.Parcel.Client.csproj": {}
+    "C:\\Users\\910329\\Source\\Repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\UB.Parcel.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\910329\\source\\repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\UB.Parcel.Client.csproj": {
+    "C:\\Users\\910329\\Source\\Repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\UB.Parcel.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\910329\\source\\repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\UB.Parcel.Client.csproj",
+        "projectUniqueName": "C:\\Users\\910329\\Source\\Repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\UB.Parcel.Client.csproj",
         "projectName": "UB.Parcel.Client",
-        "projectPath": "C:\\Users\\910329\\source\\repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\UB.Parcel.Client.csproj",
+        "projectPath": "C:\\Users\\910329\\Source\\Repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\UB.Parcel.Client.csproj",
         "packagesPath": "C:\\Users\\910329\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\910329\\source\\repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\obj\\",
+        "outputPath": "C:\\Users\\910329\\Source\\Repos\\Personal\\UB.Parcel.Client\\src\\UB.Parcel.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
